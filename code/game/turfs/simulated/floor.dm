@@ -126,6 +126,29 @@ turf/simulated/floor/update_icon()
 		if(!broken && !burnt)
 			if(!(icon_state in list("grass1","grass2","grass3","grass4")))
 				icon_state = "grass[pick("1","2","3","4")]"
+
+			for(var/direction in cardinal)
+				to_chat(world, "si")
+				if(istype(get_step(src,direction),/turf/simulated/floor))
+					to_chat(world, "tambien")
+					switch(direction)
+						//overlays += image('icons/turf/walls.dmi', "grassfloor_[direction]")
+						if(NORTH)
+							to_chat(world, "norte")
+							src.overlays += image('icons/turf/overlays.dmi', "grassfloor_NORTH")
+						if(SOUTH)
+							src.overlays += image('icons/turf/overlays.dmi', "grassfloor_SOUTH")
+						if(EAST)
+							src.overlays += image('icons/turf/overlays.dmi', "grassfloor_EAST")
+						if(WEST)
+							src.overlays += image('icons/turf/overlays.dmi', "grassfloor_WEST")
+
+
+
+
+
+
+
 	else if(is_carpet_floor())
 		if(!broken && !burnt)
 			var/connectdir = 0

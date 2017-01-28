@@ -280,25 +280,6 @@
 	..()
 	update_icon()
 
-/turf/simulated/floor/grass/update_icon()
-	//..()
-	//overlays.len = 0
-	for(var/direction in cardinal)
-		to_chat(world, "si")
-		if(istype(get_step(src,direction),/turf/simulated/floor))
-			to_chat(world, "tambien")
-			switch(direction)
-				//overlays += image('icons/turf/walls.dmi', "grassfloor_[direction]")
-				if(NORTH)
-					to_chat(world, "norte")
-					src.overlays += image('icons/turf/overlays.dmi', "grassfloor_NORTH")
-				if(SOUTH)
-					src.overlays += image('icons/turf/overlays.dmi', "grassfloor_SOUTH", layer=6)
-				if(EAST)
-					src.overlays += image('icons/turf/overlays.dmi', "grassfloor_EAST", layer=6)
-				if(WEST)
-					src.overlays += image('icons/turf/overlays.dmi', "grassfloor_WEST", layer=6)
-
 /turf/simulated/floor/carpet
 	name = "Carpet"
 	icon_state = "carpet"
