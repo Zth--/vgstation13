@@ -281,7 +281,7 @@
 	update_icon()
 
 /turf/simulated/floor/grass/update_icon()
-	..()
+	//..()
 	//overlays.len = 0
 	for(var/direction in cardinal)
 		to_chat(world, "si")
