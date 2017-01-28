@@ -288,13 +288,13 @@
 			switch(direction)
 				//overlays += image('icons/turf/walls.dmi', "grassfloor_[direction]")
 				if(NORTH)
-					overlays += image('icons/turf/walls.dmi', "grassfloor_NORTH")
+					overlays += image('icons/turf/overlays.dmi', "grassfloor_NORTH")
 				if(SOUTH)
-					overlays += image('icons/turf/walls.dmi', "grassfloor_SOUTH", layer=6)
+					overlays += image('icons/turf/overlays.dmi', "grassfloor_SOUTH", layer=6)
 				if(EAST)
-					overlays += image('icons/turf/walls.dmi', "grassfloor_EAST", layer=6)
+					overlays += image('icons/turf/overlays.dmi', "grassfloor_EAST", layer=6)
 				if(WEST)
-					overlays += image('icons/turf/walls.dmi', "grassfloor_WEST", layer=6)
+					overlays += image('icons/turf/overlays.dmi', "grassfloor_WEST", layer=6)
 
 /turf/simulated/floor/carpet
 	name = "Carpet"
