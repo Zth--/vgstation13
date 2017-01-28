@@ -278,13 +278,23 @@
 	floor_tile.New() //I guess New() isn't ran on objects spawned without the definition of a turf to house them, ah well.
 	icon_state = "grass[pick("1","2","3","4")]"
 	..()
-	spawn(4)
-		if(src)
-			update_icon()
-			for(var/direction in cardinal)
-				if(istype(get_step(src,direction),/turf/simulated/floor))
-					var/turf/simulated/floor/FF = get_step(src,direction)
-					FF.update_icon() //so siding get updated properly
+	update_icon()
+
+/turf/simulated/floor/grass/update_icon()
+	..()
+	overlays.len = 0
+	for(var/direction in cardinal)
+		if(istype(get_step(src,direction),/turf/simulated/floor))
+			switch(direction)
+				//overlays += image('icons/turf/walls.dmi', "grassfloor_[direction]")
+				if(NORTH)
+					overlays += image('icons/turf/walls.dmi', "grassfloor_NORTH")
+				if(SOUTH)
+					overlays += image('icons/turf/walls.dmi', "grassfloor_SOUTH", layer=6)
+				if(EAST)
+					overlays += image('icons/turf/walls.dmi', "grassfloor_EAST", layer=6)
+				if(WEST)
+					overlays += image('icons/turf/walls.dmi', "grassfloor_WEST", layer=6)
 
 /turf/simulated/floor/carpet
 	name = "Carpet"
