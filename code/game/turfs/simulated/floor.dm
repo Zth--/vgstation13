@@ -128,20 +128,19 @@ turf/simulated/floor/update_icon()
 				icon_state = "grass[pick("1","2","3","4")]"
 
 			for(var/direction in cardinal)
-				to_chat(world, "si")
-				if(istype(get_step(src,direction),/turf/simulated/floor))
-					to_chat(world, "tambien")
+				var/turf/T = get_step(src, direction)
+				if(istype(T,/turf/simulated/floor))
 					switch(direction)
 						//overlays += image('icons/turf/walls.dmi', "grassfloor_[direction]")
 						if(NORTH)
 							to_chat(world, "norte")
-							src.overlays += image('icons/turf/overlays.dmi', "grassfloor_NORTH")
+							T.overlays += image('icons/turf/overlays.dmi', "grassfloor_NORTH")
 						if(SOUTH)
-							src.overlays += image('icons/turf/overlays.dmi', "grassfloor_SOUTH")
+							T.overlays += image('icons/turf/overlays.dmi', "grassfloor_SOUTH")
 						if(EAST)
-							src.overlays += image('icons/turf/overlays.dmi', "grassfloor_EAST")
+							T.overlays += image('icons/turf/overlays.dmi', "grassfloor_EAST")
 						if(WEST)
-							src.overlays += image('icons/turf/overlays.dmi', "grassfloor_WEST")
+							T.overlays += image('icons/turf/overlays.dmi', "grassfloor_WEST")
 
 
 
