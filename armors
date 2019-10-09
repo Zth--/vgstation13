@@ -1,0 +1,1182 @@
+	name = "elite security skirt"
+	desc = "For demonstrating who is in charge."
+	armor = list(melee = 10, bullet = 10, laser = 10,energy = 0, bomb = 0, bio = 0, rad = 0)
+
+
+	name = "elite ninja hood"
+	desc = "What may appear to be a simple black garment is in fact a highly sophisticated nano-weave helmet. Standard issue ninja gear."
+	armor = list(melee = 60, bullet = 50, laser = 30,energy = 15, bomb = 30, bio = 30, rad = 25)
+
+
+	name = "ninja hood"
+	desc = "What may appear to be a simple black garment is in fact a sophisticated nano-weave helmet. Standard issue ninja apprentice gear."
+	armor = list(melee = 50, bullet = 15, laser = 50, energy = 10, bomb = 25, bio = 0, rad = 0)
+
+
+	name = "elite ninja suit"
+	desc = "A unique, vacuum-proof suit of nano-enhanced armor designed specifically for elite Spider Clan assassins."
+	armor = list(melee = 60, bullet = 50, laser = 30,energy = 15, bomb = 30, bio = 30, rad = 30)
+
+
+	name = "ninja suit"
+	desc = "A rare suit of nano-enhanced armor designed for Spider Clan assassins."
+	armor = list(melee = 50, bullet = 15, laser = 50, energy = 10, bomb = 25, bio = 0, rad = 0)
+
+
+	name = "cult hood"
+	desc = "A hood worn by the followers of Nar-Sie."
+	armor = list(melee = 30, bullet = 10, laser = 10,energy = 5, bomb = 10, bio = 25, rad = 0)
+
+
+	name = "cult robes"
+	desc = "A set of armored robes worn by the followers of Nar-Sie."
+	armor = list(melee = 50, bullet = 30, laser = 30,energy = 20, bomb = 25, bio = 25, rad = 0)
+
+
+	name = "cult helmet"
+	desc = "A space worthy helmet used by the followers of Nar-Sie"
+	armor = list(melee = 60, bullet = 50, laser = 50,energy = 15, bomb = 50, bio = 30, rad = 30)
+
+
+	name = "cult armor"
+	desc = "A bulky suit of armor bristling with spikes. It looks space proof."
+	armor = list(melee = 60, bullet = 50, laser = 50,energy = 15, bomb = 50, bio = 30, rad = 30)
+
+
+	name = "magus helm"
+	desc = "A helm."
+	armor = list(melee = 30, bullet = 30, laser = 30,energy = 20, bomb = 0, bio = 0, rad = 0)
+
+
+	name = "magus robes"
+	desc = "A set of armored robes."
+	armor = list(melee = 50, bullet = 30, laser = 50,energy = 20, bomb = 25, bio = 10, rad = 0)
+
+
+	name = "cult hood"
+	desc = "A hood worn by the followers of Nar-Sie."
+	armor = list(melee = 30, bullet = 10, laser = 5,energy = 5, bomb = 0, bio = 0, rad = 0)
+
+
+	name = "cult robes"
+	desc = "A set of armored robes worn by the followers of Nar-Sie."
+	armor = list(melee = 50, bullet = 30, laser = 50,energy = 20, bomb = 25, bio = 10, rad = 0)
+
+
+	name = "magus helm"
+	desc = "A helm worn by the followers of Nar-Sie."
+	armor = list(melee = 30, bullet = 30, laser = 30,energy = 20, bomb = 0, bio = 0, rad = 0)
+
+
+	name = "magus robes"
+	desc = "A set of armored robes worn by the followers of Nar-Sie."
+	armor = list(melee = 50, bullet = 30, laser = 50,energy = 20, bomb = 25, bio = 10, rad = 0)
+
+
+	name = "cult helmet"
+	desc = "A space worthy helmet used by the followers of Nar-Sie"
+	armor = list(melee = 60, bullet = 50, laser = 30,energy = 15, bomb = 30, bio = 30, rad = 30)
+
+
+	name = "cult armor"
+	desc = "A bulky suit of armor bristling with spikes. It looks space proof."
+	armor = list(melee = 60, bullet = 50, laser = 30,energy = 15, bomb = 30, bio = 30, rad = 30)
+
+
+	name = "armored amish suit"
+	armor = list(melee = 30, bullet = 20, laser = 10,energy = 5, bomb = 5, bio = 0, rad = 0)
+
+
+	name = "administrative cybernetic jumpsuit"
+	desc = "it's a cybernetically enhanced jumpsuit used for administrative duties."
+	armor = list(melee = 100, bullet = 100, laser = 100,energy = 100, bomb = 100, bio = 100, rad = 100)
+
+
+	name = "roman armor"
+	desc = "An ancient Roman armor. Made of metallic strips and leather straps."
+	armor = list(melee = 25, bullet = 0, laser = 25, energy = 10, bomb = 10, bio = 0, rad = 0)
+
+
+	name = "janitor's jumpsuit"
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 10, rad = 0)
+
+
+	name = "research director's jumpsuit"
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 10, rad = 0)
+
+
+	name = "scientist's jumpsuit"
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 10, bio = 0, rad = 0)
+
+
+	name = "chemist's jumpsuit"
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 10, rad = 0)
+
+
+	name = "pharmacist's jumpsuit"
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 10, rad = 0)
+
+
+	name = "xenoarcheologist's jumpsuit"
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 10)
+
+
+	name = "plasma researcher's jumpsuit"
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 10, bio = 0, rad = 0)
+
+
+	name = "xenobiologist's jumpsuit"
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 10, rad = 0)
+
+
+	name = "anomalist's jumpsuit"
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 10)
+
+
+	name = "chief medical officer's jumpsuit"
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 10, rad = 0)
+
+
+	name = "geneticist's jumpsuit"
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 10, rad = 0)
+
+
+	name = "virologist's jumpsuit"
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 10, rad = 0)
+
+
+	name = "nurse's suit"
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 10, rad = 0)
+
+
+	name = "nurse's dress"
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 10, rad = 0)
+
+
+	name = "orderly's uniform"
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 10, rad = 0)
+
+
+	name = "medical doctor's jumpsuit"
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 10, rad = 0)
+
+
+	name = "paramedic's jumpsuit"
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 10, rad = 10)
+
+
+	name = "geneticist's jumpsuit"
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 10, rad = 0)
+
+
+	name = "chemist's jumpsuit"
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 10, rad = 0)
+
+
+	name = "scientist's jumpsuit"
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 10, bio = 0, rad = 0)
+
+
+	name = "virologist's jumpsuit"
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 10, rad = 0)
+
+
+	name = "warden's jumpsuit"
+	armor = list(melee = 10, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 0)
+
+
+	name = "security officer's jumpsuit"
+	desc = "A jumpsuit made of strong material, providing robust protection."
+	armor = list(melee = 10, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 0)
+
+
+	name = "dispatcher's uniform"
+	desc = "A dress shirt and khakis with a security patch sewn on."
+	armor = list(melee = 10, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 0)
+
+
+	name = "security officer's uniform"
+	desc = "A jumpsuit made of strong material, providing robust protection."
+	armor = list(melee = 10, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 0)
+
+
+	name = "hard-worn suit"
+	desc = "Someone who wears this means business."
+	armor = list(melee = 10, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 0)
+
+
+	name = "hat"
+	desc = "Someone who wears this will look very smart."
+	armor = list(melee = 50, bullet = 5, laser = 25,energy = 10, bomb = 0, bio = 0, rad = 0)
+
+
+	name = "head of security's jumpsuit"
+	armor = list(melee = 10, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 0)
+
+
+	name = "armored coat"
+	desc = "A greatcoat enhanced with a special alloy for protection and style."
+	armor = list(melee = 65, bullet = 30, laser = 50, energy = 10, bomb = 25, bio = 0, rad = 0)
+
+
+	name = "chief engineer's jumpsuit"
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 10)
+
+
+	name = "engineer's jumpsuit"
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 10)
+
+
+	name = "maintenance technician's jumpsuit"
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 10)
+
+
+	name = "engine technician's jumpsuit"
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 10)
+
+
+	name = "electrician's jumpsuit"
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 10, bomb = 0, bio = 0, rad = 0)
+
+
+	name = "tactical turtleneck"
+	desc = "A non-descript, slightly suspicious piece of civilian clothing."
+	armor = list(melee = 10, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 0)
+
+
+	name = "sterile mask"
+	desc = "A sterile mask designed to help prevent the spread of diseases."
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 25, rad = 0)
+
+
+	name = "plague doctor mask"
+	desc = "A modernised version of the classic design, this mask will not only filter out toxins but it can also be connected to an air supply."
+	armor = list(melee = 0, bullet = 0, laser = 2,energy = 2, bomb = 0, bio = 75, rad = 0)
+
+
+	name = "Vampire Coat"
+	desc = "What is a man? A miserable little pile of secrets."
+	armor = list(melee = 30, bullet = 20, laser = 10, energy = 10, bomb = 0, bio = 0, rad = 0)
+
+
+	name = "inquisitor's coat"
+	desc = "This inquisitor attire was made for new recruits, and has excellent straightforward defense. But not nearly enough to allow an ordinary man to stand any real chance against the the wicked."
+	armor = list(melee = 40, bullet = 25, laser = 5, energy = 0, bomb = 0, bio = 0, rad = 0)
+
+
+	name = "leather apron"
+	desc = "A rough apron made out of leather. It is commonly used by blacksmiths to shield them from the forge's embers."
+	armor = list(melee = 10, bullet = 5, laser = 20, energy = 0, bomb = 10, bio = 0, rad = 0)
+
+
+	name = "bomb hood"
+	desc = "Use in case of bomb."
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 100, bio = 0, rad = 0)
+
+
+	name = "bomb suit"
+	desc = "A suit designed for safety when handling explosives."
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 100, bio = 0, rad = 0)
+
+
+	name = "Advanced EOD Helmet"
+	desc = "Use in case of very large bomb."
+	armor = list(melee = 80, bullet = 80, laser = 40,energy = 20, bomb = 100, bio = 0, rad = 0)
+
+
+	name = "Advanced EOD Suit"
+	desc = "A heavy suit designed for heavy protection."
+	armor = list(melee = 80, bullet = 80, laser = 40,energy = 20, bomb = 100, bio = 0, rad = 0)
+
+
+	name = "radiation hood"
+	desc = "A hood with radiation protective properties. Label: Made with lead, do not eat insulation."
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 60, rad = 100)
+
+
+	name = "radiation suit"
+	desc = "A suit that protects against radiation. Label: Made with lead, do not eat insulation."
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 60, rad = 100)
+
+
+	name = "leather suit"
+	desc = "Crafted from fresh leather, may not stop a bullet or a knife, but it's a template to build off of."
+	armor = list(melee = 25, bullet = 20, laser = 20, energy = 15, bomb = 20, bio = 0, rad = 0)
+
+
+	name = "xeno-hide suit"
+	desc = "Like the aftermath of the bad end of 101 dalmations, but with less puppies and more xenomorph."
+	armor = list(melee = 40, bullet = 25, laser = 30, energy = 25, bomb = 15, bio = 20, rad = 20)
+
+
+	name = "security plate armor"
+	desc = "A robust vest designed to comfortably hold interchangable armor plates."
+	armor = list(melee = 10, bullet = 15, laser = 25, energy = 15, bomb = 5, bio = 0, rad = 0)
+
+
+	name = "ceramic armor plate"
+	desc = "A generic armor plate for use in plate carriers."
+	armor = list(melee = 25, bullet = 7, laser = 50, energy = 10, bomb = 25, bio = 0, rad = 0)
+
+
+	name = "ceramic armor plate"
+	desc = "A generic armor plate for use in plate carriers."
+	armor = list(melee = 25, bullet = 7, laser = 50, energy = 10, bomb = 25, bio = 0, rad = 0)
+
+
+	armor_absorb = list(melee = 25, bullet = 20, laser = 20, energy = -5, bomb = 0, bio = 0, rad = 0)
+
+
+	name = "plasteel armor plate"
+	desc = "An armor plate for use in plate carriers. This one is optimized for impact negation."
+	armor = list(melee = 50, bullet = 50, laser = 10, energy = 10, bomb = 0, bio = 0, rad = 0)
+
+
+	name = "plasteel armor plate"
+	desc = "An armor plate for use in plate carriers. This one is optimized for impact negation."
+	armor = list(melee = 50, bullet = 50, laser = 10, energy = 10, bomb = 0, bio = 0, rad = 0)
+
+
+	armor_absorb = list(melee = 25, bullet = 40, laser = 10, energy = -5, bomb = 35, bio = 0, rad = 0)
+
+
+	name = "ablated ceramite armor plate"
+	desc = "An armor plate for use in plate carriers. This one is optimized for heat dissipation."
+	armor = list(melee = 10, bullet = 10, laser = 80, energy = 50, bomb = 0, bio = 0, rad = 0)
+
+
+	name = "ablated ceramite armor plate"
+	desc = "An armor plate for use in plate carriers. This one is optimized for heat dissipation."
+	armor = list(melee = 10, bullet = 10, laser = 80, energy = 50, bomb = 0, bio = 0, rad = 0)
+
+
+	armor_absorb = list(melee = 25, bullet = 20, laser = 40, energy = -5, bomb = 0, bio = 0, rad = 0)
+
+
+	name = "wizard robe"
+	desc = "A magnificant, gem-lined robe that seems to radiate power."
+	armor = list(melee = 30, bullet = 20, laser = 20,energy = 20, bomb = 20, bio = 20, rad = 20)
+
+
+	name = "wizard robe"
+	desc = "A rather dull, blue robe meant to mimick real wizard robes."
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 0)
+
+
+	name = "Witch Hat"
+	desc = "Strange-looking hat-wear, makes you want to cast fireballs."
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 0)
+
+
+	name = "Witch Robe"
+	desc = "Magic is all about the spell power, ZE!"
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 0)
+
+
+	name = "armor"
+	desc = "An armored vest that protects against some damage."
+	armor = list(melee = 50, bullet = 15, laser = 50, energy = 10, bomb = 25, bio = 0, rad = 0)
+
+
+	name = "chainmail"
+	desc = "A series of chains linked together in a way to look like a suit."
+	armor = list(melee = 20, bullet = 35, laser = 10, energy = 10, bomb = 25, bio = 0, rad = 0)
+
+
+	name = "Riot Suit"
+	desc = "A suit of armor with heavy padding to protect against melee attacks. Looks like it might impair movement."
+	armor = list(melee = 80, bullet = 10, laser = 10, energy = 10, bomb = 0, bio = 0, rad = 0)
+
+
+	name = "plate armour"
+	desc = "A classic suit of plate armour, highly effective at stopping melee attacks."
+	armor = list(melee = 40, bullet = 5, laser = 5, energy = 5, bomb = 0, bio = 0, rad = 0)
+
+
+	name = "Squaddie Armor"
+	desc = "A suit of armor with heavy padding to protect against projectile attacks. Distributed to shadow organization squaddies."
+	armor = list(melee = 10, bullet = 50, laser = 10, energy = 10, bomb = 0, bio = 0, rad = 0)
+
+
+	name = "Mysterious Armor"
+	desc = "A suit of armor with heavy plating to protect against melee attacks. Distributed to shadow organization squaddies."
+	armor = list(melee = 50, bullet = 10, laser = 10, energy = 0, bomb = 0, bio = 0, rad = 0)
+
+
+	name = "Bulletproof Vest"
+	desc = "A vest that excels in protecting the wearer against high-velocity solid projectiles."
+	armor = list(melee = 10, bullet = 80, laser = 10, energy = 10, bomb = 0, bio = 0, rad = 0)
+
+
+	name = "Ablative Armor Vest"
+	desc = "A vest that excels in protecting the wearer against energy projectiles."
+	armor = list(melee = 10, bullet = 10, laser = 80, energy = 50, bomb = 0, bio = 0, rad = 0)
+
+
+	name = "armor"
+	desc = "An armored vest with a detective's badge on it."
+	armor = list(melee = 50, bullet = 15, laser = 50, energy = 10, bomb = 25, bio = 0, rad = 0)
+
+
+	name = "Reactive Teleport Armor"
+	desc = "Someone seperated our Research Director from his own head!"
+	armor = list(melee = 0, bullet = 0, laser = 0, energy = 0, bomb = 0, bio = 0, rad = 0)
+
+
+	name = "pirate lord's armor"
+	desc = "The attire of an all powerful and bloodthirsty pirate lord. Simply looking at sends chills down your spine."
+	armor = list(melee = 75, bullet = 75, laser = 75,energy = 75, bomb = 75, bio = 100, rad = 90)
+
+
+	name = "Digouter Suit"
+	desc = "Found abandoned on an ancient space colony!"
+	armor = list(melee = 50, bullet = 40, laser = 40, energy = 40, bomb = 40, bio = 0, rad = 0)
+
+
+	name = "Doomguy's armor"
+	desc = ""
+	armor = list(melee = 50, bullet = 30, laser = 20, energy = 20, bomb = 30, bio = 0, rad = 0)
+
+
+	name = "ice armor"
+	desc = "A cool-looking suit of armor made of solid ice."
+	armor = list(melee = 80, bullet = 50, laser = 0, energy = 10, bomb = 40, bio = 0, rad = 0)
+
+
+	name = "slime coat"
+	desc = "This does not look like it protects against water very well"
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 10, rad = 0)
+
+
+	name = "labcoat"
+	desc = "A suit that protects against minor chemical spills."
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 50, rad = 0)
+
+
+	name = "chief medical officer's labcoat"
+	desc = "Bluer than the standard model."
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 70, rad = 0)
+
+
+	name = "virologist labcoat"
+	desc = "A suit that protects against minor chemical spills. Offers slightly more protection against biohazards than the standard model. Has a green stripe on the shoulder."
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 60, rad = 0)
+
+
+	name = "oncologist labcoat"
+	desc = "A suit that protects against minor radiation exposure. Offers slightly more protection against radiation than the standard model. Has a black stripe on the shoulder."
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 60)
+
+
+	name = "research director's labcoat"
+	desc = "It smells like weird science."
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 20, bio = 50, rad = 50)
+
+
+	name = "bio hood"
+	desc = "A hood that protects the head and face from biological comtaminants."
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 100, rad = 20)
+
+
+	name = "bio suit"
+	desc = "A suit that protects against biological contamination."
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 100, rad = 20)
+
+
+	name = "beekeeping suit"
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 70, rad = 0)
+
+
+	name = "paramedic vest"
+	desc = "A hazard vest used in the recovery of bodies."
+	armor = list(melee = 0, bullet = 0, laser = 0, energy = 0, bomb = 0, bio = 10, rad = 10)
+
+
+	name = "coat"
+	desc = "An 18th-century multi-purpose trenchcoat. Someone who wears this means serious business."
+	armor = list(melee = 50, bullet = 10, laser = 25, energy = 10, bomb = 0, bio = 0, rad = 0)
+
+
+	name = "jacket"
+	desc = "A forensics technician jacket."
+	armor = list(melee = 10, bullet = 10, laser = 15, energy = 10, bomb = 0, bio = 0, rad = 0)
+
+
+	name = "Head of Personnel's dress jacket"
+	desc = "A slightly armoured greatcoat. It looks like it's mostly ceremonial."
+	armor = list(melee = 50, bullet = 10, laser = 25, energy = 10, bomb = 0, bio = 0, rad = 0)
+
+
+	name = "syndicate executive jacket"
+	desc = "A flash black jacket, it seems oddly heavy."
+	armor = list(melee = 50, bullet = 10, laser = 25, energy = 10, bomb = 0, bio = 0, rad = 0)
+
+
+	name = "winter coat"
+	desc = "A heavy jacket made from 'synthetic' animal furs."
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 10, rad = 0)
+
+
+	name = "captain's winter coat"
+	armor = list(melee = 20, bullet = 15, laser = 20, energy = 10, bomb = 15, bio = 0, rad = 0)
+
+
+	name = "security winter coat"
+	armor = list(melee = 25, bullet = 20, laser = 20, energy = 15, bomb = 20, bio = 0, rad = 0)
+
+
+	name = "Head of Security's winter coat"
+	armor = list(melee = 65, bullet = 30, laser = 50, energy = 10, bomb = 25, bio = 0, rad = 0)
+
+
+	name = "medical winter coat"
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 50, rad = 0)
+
+
+	name = "science winter coat"
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 10, bio = 0, rad = 0)
+
+
+	name = "engineering winter coat"
+	armor = list(melee = 0, bullet = 0, laser = 0, energy = 0, bomb = 0, bio = 0, rad = 20)
+
+
+	name = "Head of Personnel's winter coat"
+	armor = list(melee = 50, bullet = 10, laser = 25, energy = 10, bomb = 0, bio = 0, rad = 0)
+
+
+	name = "mining winter coat"
+	armor = list(melee = 10, bullet = 0, laser = 0, energy = 0, bomb = 0, bio = 0, rad = 0)
+
+
+	name = "Chief Engineer's winter coat"
+	armor = list(melee = 0, bullet = 0, laser = 0, energy = 0, bomb = 0, bio = 0, rad = 50)
+
+
+	name = "Chief Medical Officer's winter coat"
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 70, rad = 0)
+
+
+	name = "size S cult robes"
+	desc = "Adorably crazy."
+	armor = list(melee = 50, bullet = 30, laser = 50,energy = 20, bomb = 25, bio = 10, rad = 0)
+
+
+	name = "suit"
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 0)
+
+
+	name = "Space helmet"
+	desc = "A special helmet designed for work in a hazardous, low-pressure environment."
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 100, rad = 50)
+
+
+	name = "Space suit"
+	desc = "A suit that protects against low pressure environments. Has a big \"13\" on the back."
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 100, rad = 50)
+
+
+	name = "under"
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 0)
+
+
+	name = "pirate hat"
+	desc = "Yarr."
+	armor = list(melee = 60, bullet = 50, laser = 30,energy = 15, bomb = 30, bio = 30, rad = 30)
+
+
+	name = "pirate coat"
+	desc = "Yarr."
+	armor = list(melee = 60, bullet = 50, laser = 30,energy = 15, bomb = 30, bio = 30, rad = 30)
+
+
+	name = "ancient space suit"
+	desc = "Drifting, falling, floating, weightless, coming home."
+	armor = list(melee = 10, bullet = 10, laser = 10,energy = 10, bomb = 50, bio = 100, rad = 100)
+
+
+	name = "ancient space helmet"
+	desc = "Take your protein pills and put your helmet on."
+	armor = list(melee = 10, bullet = 10, laser = 10,energy = 10, bomb = 50, bio = 100, rad = 100)
+
+
+	name = "emergency response team helmet"
+	desc = "A helmet worn by members of the Nanotrasen Emergency Response Team. Armoured, space ready and fire resistant."
+	armor = list(melee = 50, bullet = 50, laser = 30,energy = 15, bomb = 30, bio = 100, rad = 60)
+
+
+	name = "emergency response team suit"
+	desc = "A suit worn by members of the Nanotrasen Emergency Response Team. Armoured, space ready and fire resistant."
+	armor = list(melee = 60, bullet = 50, laser = 30,energy = 15, bomb = 30, bio = 100, rad = 60)
+
+
+	name = "emergency response team engineer helmet"
+	desc = "A helmet worn by the engineering members of a Nanotrasen Emergency Response Team. Armoured, space ready and fire resistant. This one is radiation resistant as well."
+	armor = list(melee = 50, bullet = 50, laser = 30,energy = 15, bomb = 30, bio = 100, rad = 100)
+
+
+	name = "emergency response team engineer suit"
+	desc = "A suit worn by the engineering members of a Nanotrasen Emergency Response Team. Armoured, space ready and fire resistant."
+	armor = list(melee = 60, bullet = 50, laser = 30,energy = 15, bomb = 30, bio = 100, rad = 100)
+
+
+	name = "Jetstream Sam's suit"
+	armor = list(melee = 60, bullet = 50, laser = 30,energy = 15, bomb = 30, bio = 30, rad = 30)
+
+
+	name = "plasmaman suit"
+	desc = "A special containment suit designed to protect a plasmaman's volatile body from outside exposure and quickly extinguish it in emergencies."
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 100, rad = 0)
+
+
+	name = "plasmaman atmospheric suit"
+	armor = list(melee = 20, bullet = 0, laser = 0,energy = 0, bomb = 25, bio = 100, rad = 0)
+
+
+	name = "plasmaman atmospheric helmet"
+	armor = list(melee = 20, bullet = 0, laser = 0,energy = 0, bomb = 25, bio = 100, rad = 0)
+
+
+	name = "plasmaman engineer suit"
+	armor = list(melee = 40, bullet = 5, laser = 20,energy = 5, bomb = 35, bio = 100, rad = 80)
+
+
+	name = "plasmaman engineer helmet"
+	armor = list(melee = 40, bullet = 5, laser = 20,energy = 5, bomb = 35, bio = 100, rad = 80)
+
+
+	name = "plasmaman miner suit"
+	armor = list(melee = 30, bullet = 5, laser = 15,energy = 5, bomb = 30, bio = 100, rad = 20)
+
+
+	name = "plasmaman miner helmet"
+	armor = list(melee = 30, bullet = 5, laser = 15,energy = 5, bomb = 30, bio = 100, rad = 20)
+
+
+	name = "plasmaman security suit"
+	armor = list(melee = 40, bullet = 15, laser = 35,energy = 5, bomb = 35, bio = 100, rad = 20)
+
+
+	name = "plasmaman security helmet"
+	armor = list(melee = 40, bullet = 15, laser = 35,energy = 5, bomb = 35, bio = 100, rad = 20)
+
+
+	name = "blood red plasmaman suit"
+	armor = list(melee = 60, bullet = 50, laser = 30, energy = 15, bomb = 35, bio = 100, rad = 60)
+
+
+	name = "blood red plasmaman helmet"
+	armor = list(melee = 60, bullet = 50, laser = 30,energy = 15, bomb = 35, bio = 100, rad = 60)
+
+
+	name = "plasmaman cultist armor"
+	desc = "A bulky suit of armour, menacing with red energy. It looks like it would fit a plasmaman."
+	armor = list(melee = 60, bullet = 50, laser = 30,energy = 15, bomb = 30, bio = 30, rad = 30)
+
+
+	name = "plasmaman cultist helmet"
+	desc = "A containment suit designed by the followers of Nar-Sie. It glows menacingly with unearthly flames."
+	armor = list(melee = 60, bullet = 50, laser = 30,energy = 15, bomb = 30, bio = 30, rad = 30)
+
+
+	name = "unathi breacher helmet"
+	desc = "Some sort of ancient Unathi power helmet with ridiculous armor plating."
+	armor = list(melee = 75, bullet = 75, laser = 75,energy = 75, bomb = 75, bio = 100, rad = 90)
+
+
+	name = "unathi breacher armor"
+	desc = "Some sort of ancient Unathi power suit with ridiculous armor plating."
+	armor = list(melee = 75, bullet = 75, laser = 75,energy = 75, bomb = 75, bio = 100, rad = 90)
+
+
+	name = "unathi battle helmet"
+	desc = "Typical gear for the modern Unathi soldier."
+	armor = list(melee = 60, bullet = 10, laser = 30, energy = 5, bomb = 45, bio = 100, rad = 10)
+
+
+	name = "unathi battle armor"
+	desc = "Typical Unathi battle suit. Looks like a fish, moves like a fish, steers like a cow."
+	armor = list(melee = 40, bullet = 30, laser = 30,energy = 15, bomb = 35, bio = 100, rad = 50)
+
+
+	name = "unathi soghun armor"
+	desc = "A Unathi suit designed after ancient soghun outfits."
+	armor = list(melee = 40, bullet = 30, laser = 30,energy = 15, bomb = 35, bio = 100, rad = 50)
+
+
+	name = "vox assistant pressure suit"
+	desc = "A cheap and oddly-shaped pressure suit made for vox crewmembers."
+	armor = list(melee = 5, bullet = 5, laser = 5, energy = 5, bomb = 0, bio = 100, rad = 25)
+
+
+	name = "vox assistant pressure helmet"
+	desc = "A very alien-looking helmet for vox crewmembers."
+	armor = list(melee = 5, bullet = 5, laser = 5, energy = 5, bomb = 0, bio = 100, rad = 25)
+
+
+	name = "vox engineer pressure suit"
+	desc = "A cheap and oddly-shaped pressure suit made for vox crewmembers. This one comes with more radiation protection."
+	armor = list(melee = 5, bullet = 5, laser = 5, energy = 5, bomb = 0, bio = 100, rad = 50)
+
+
+	name = "vox engineer pressure helmet"
+	desc = "A very alien-looking helmet for vox crewmembers. This one comes with more radiation protection."
+	armor = list(melee = 5, bullet = 5, laser = 5, energy = 5, bomb = 0, bio = 100, rad = 50)
+
+
+	name = "vox atmos pressure suit"
+	desc = "A cheap and oddly-shaped pressure suit made for vox crewmembers. Has some heat protection."
+	armor = list(melee = 5, bullet = 5, laser = 5, energy = 5, bomb = 0, bio = 100, rad = 10)
+
+
+	name = "vox atmos pressure helmet"
+	desc = "A very alien-looking helmet for vox crewmembers. Has some heat protection."
+	armor = list(melee = 5, bullet = 5, laser = 5, energy = 5, bomb = 0, bio = 100, rad = 10)
+
+
+	name = "vox chief engineer pressure suit"
+	desc = "A more advanced pressure suit made for vox crewmembers. Has some radiation and heat protection."
+	armor = list(melee = 10, bullet = 5, laser = 10, energy = 5, bomb = 10, bio = 100, rad = 50)
+
+
+	name = "vox science pressure suit"
+	desc = "A cheap and oddly-shaped pressure suit made for vox crewmembers. This one is for SCIENCE!"
+	armor = list(melee = 5, bullet = 5, laser = 5, energy = 5, bomb = 10, bio = 100, rad = 25)
+
+
+	name = "vox science pressure helmet"
+	desc = "A very alien-looking helmet for vox crewmembers. This one is for SCIENCE!"
+	armor = list(melee = 5, bullet = 5, laser = 5, energy = 5, bomb = 10, bio = 100, rad = 25)
+
+
+	name = "vox security pressure suit"
+	desc = "A cheap and oddly-shaped pressure suit made for vox crewmembers. This one is for security aligned vox."
+	armor = list(melee = 60, bullet = 10, laser = 30, energy = 5, bomb = 45, bio = 100, rad = 10)
+
+
+	name = "vox civilian pressure suit"
+	desc = "A modernized pressure suit for Vox who've decided to work for the winning team."
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 100, rad = 10)
+
+
+	name = "vox engineering pressure suit"
+	desc = "A modernized pressure suit for Vox who've decided to work for the winning team.  This one comes with more radiation protection."
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 100, rad = 80)
+
+
+	name = "vox medical pressure suit"
+	desc = "A modernized pressure suit for Vox who've decided to work for shitcurity."
+	armor = list(melee = 60, bullet = 10, laser = 30, energy = 5, bomb = 45, bio = 100, rad = 10)
+
+
+	name = "grey pressure helmet"
+	desc = "A strange globe-like structure. Despite looking like a decent glare would break it, it is surprisingly durable. Enough thinking room for a Grey."
+	armor = list(melee = 5, bullet = 5, laser = 5, energy = 5, bomb = 10, bio = 100, rad = 50)
+
+
+	name = "grey pressure suit"
+	desc = "A strange suit comprised of a series of tubes. Despite looking like a decent wind could tear it apart, it is surprisingly durable. Too thin for anything but a Grey to wear it."
+	armor = list(melee = 5, bullet = 5, laser = 5, energy = 5, bomb = 10, bio = 100, rad = 50)
+
+
+	name = "skrell combat helmet"
+	desc = "a military Skrell space helmet."
+	armor = list(melee = 60, bullet = 10, laser = 30, energy = 5, bomb = 45, bio = 100, rad = 10)
+
+
+	name = "skrell combat suit"
+	desc = "a military Skrell space suit."
+	armor = list(melee = 60, bullet = 10, laser = 30, energy = 5, bomb = 45, bio = 100, rad = 10)
+
+
+	name = "skrell space helmet"
+	desc = "a civilian Skrell space helmet."
+	armor = list(melee = 30, bullet = 5, laser = 20,energy = 10, bomb = 20, bio = 10, rad = 20)
+
+
+	name = "skrell space suit"
+	desc = "a civilian Skrell space suit."
+	armor = list(melee = 30, bullet = 5, laser = 20,energy = 10, bomb = 20, bio = 10, rad = 20)
+
+
+	name = "red space helmet"
+	desc = "Has a tag on it: Totally not property of a hostile corporation, honest!"
+	armor = list(melee = 60, bullet = 50, laser = 30,energy = 15, bomb = 30, bio = 30, rad = 30)
+
+
+	name = "red space suit"
+	desc = "Has a tag on it: Totally not property of a hostile corporation, honest!"
+	armor = list(melee = 60, bullet = 50, laser = 30,energy = 15, bomb = 30, bio = 30, rad = 30)
+
+
+	name = "time helmet"
+	desc = "Though it possesses no special abilities of its own, this helmet is necessary to properly seal a time suit."
+	armor = list(melee = 25, bullet = 25, laser = 15, energy = 15, bomb = 15, bio = 100, rad = 30)
+
+
+	name = "time suit"
+	desc = "In addition to possessing various time-related abilities, this suit is capable of separating the flow of time inside it from the flow of time outside it, when properly sealed."
+	armor = list(melee = 30, bullet = 25, laser = 15, energy = 15, bomb = 15, bio = 100, rad = 30)
+
+
+	name = "engineering hardsuit helmet"
+	desc = "A special helmet designed for work in a hazardous, low-pressure environment. Has radiation shielding."
+	armor = list(melee = 40, bullet = 5, laser = 20,energy = 5, bomb = 35, bio = 100, rad = 80)
+
+
+	name = "engineering hardsuit"
+	desc = "A special suit that protects against hazardous, low pressure environments. Has radiation shielding."
+	armor = list(melee = 40, bullet = 5, laser = 20,energy = 5, bomb = 35, bio = 100, rad = 80)
+
+
+	name = "blood-red hardsuit helmet"
+	desc = "An advanced helmet designed for work in special operations. A tag on it says \"Property of Gorlex Marauders\"."
+	armor = list(melee = 60, bullet = 50, laser = 30,energy = 15, bomb = 35, bio = 100, rad = 60)
+
+
+	name = "blood-red hardsuit"
+	desc = "An advanced suit that protects against injuries during special operations. A tag on it says \"Property of Gorlex Marauders\"."
+	armor = list(melee = 60, bullet = 50, laser = 30, energy = 15, bomb = 35, bio = 100, rad = 60)
+
+
+	name = "large blood-red hardsuit helmet"
+	desc = "An advanced helmet designed for work in special operations. Slightly bulkier than usual. A tag on it says \"Property of Gorlex Marauders\"."
+	armor = list(melee = 65, bullet = 55, laser = 35, energy = 20, bomb = 40, bio = 100, rad = 60)
+
+
+	name = "large blood-red hardsuit"
+	desc = "An advanced suit that protects against injuries during special operations. Slightly bulkier than usual. A tag on it says \"Property of Gorlex Marauders\"."
+	armor = list(melee = 65, bullet = 55, laser = 35, energy = 20, bomb = 40, bio = 100, rad = 60)
+
+
+	name = "syndicate elite hardsuit helmet"
+	desc = "The result of reverse-engineered deathsquad technology combined with nuclear operative hardsuit."
+	armor = list(melee = 65, bullet = 55, laser = 35,energy = 20, bomb = 40, bio = 100, rad = 60)
+
+
+	name = "syndicate elite hardsuit"
+	desc = "The result of reverse-engineered deathsquad technology combined with nuclear operative hardsuit."
+	armor = list(melee = 70, bullet = 60, laser = 40, energy = 25, bomb = 50, bio = 100, rad = 60)
+
+
+	name = "gem-encrusted hardsuit helmet"
+	desc = "A bizarre gem-encrusted helmet that radiates magical energies."
+	armor = list(melee = 40, bullet = 20, laser = 20,energy = 20, bomb = 35, bio = 100, rad = 60)
+
+
+	name = "gem-encrusted hardsuit"
+	desc = "A bizarre gem-encrusted suit that radiates magical energies."
+	armor = list(melee = 40, bullet = 20, laser = 20,energy = 20, bomb = 35, bio = 100, rad = 60)
+
+
+	name = "security hardsuit helmet"
+	desc = "A special helmet designed for work in a hazardous low pressure environment. Has an additional layer of armor."
+	armor = list(melee = 60, bullet = 10, laser = 30, energy = 5, bomb = 45, bio = 100, rad = 10)
+
+
+	name = "security hardsuit"
+	desc = "A special suit that protects against hazardous low pressure environments. Has an additional layer of armor."
+	armor = list(melee = 60, bullet = 10, laser = 30, energy = 5, bomb = 45, bio = 100, rad = 10)
+
+
+	name = "atmospherics hardsuit helmet"
+	armor = list(melee = 40, bullet = 0, laser = 0, energy = 0, bomb = 25, bio = 100, rad = 0)
+
+
+	name = "atmos hardsuit"
+	armor = list(melee = 40, bullet = 0, laser = 0, energy = 0, bomb = 25, bio = 100, rad = 0)
+
+
+	name = "atmos hardsuit"
+	armor = list(melee = 30, bullet = 5, laser = 40,energy = 5, bomb = 35, bio = 100, rad = 60)
+
+
+	name = "nazi hardhelmet"
+	desc = "This is the face of das vaterland's top elite. Gas or energy are your only escapes."
+	armor = list(melee = 40, bullet = 30, laser = 30, energy = 15, bomb = 35, bio = 100, rad = 20)
+
+
+	name = "nazi hardsuit"
+	desc = "The attire of a true krieger. All shall fall, and only das vaterland will remain."
+	armor = list(melee = 40, bullet = 30, laser = 30, energy = 15, bomb = 35, bio = 100, rad = 20)
+
+
+	name = "soviet hardhelmet"
+	desc = "Crafted with the pride of the proletariat. The vengeful gaze of the visor roots out all fascists and capitalists."
+	armor = list(melee = 40, bullet = 30, laser = 30, energy = 15, bomb = 35, bio = 100, rad = 20)
+
+
+	name = "soviet hardsuit"
+	desc = "Crafted with the pride of the proletariat. The last thing the enemy sees is the bottom of this armor's boot."
+	armor = list(melee = 40, bullet = 30, laser = 30, energy = 15, bomb = 35, bio = 100, rad = 20)
+
+
+	name = "deathsquad helmet"
+	desc = "That's not red paint. That's real blood."
+	armor = list(melee = 65, bullet = 55, laser = 35,energy = 20, bomb = 40, bio = 100, rad = 60)
+
+
+	name = "deathsquad suit"
+	desc = "A heavily armored suit that protects against a lot of things. Used in special operations."
+	armor = list(melee = 80, bullet = 60, laser = 50,energy = 25, bomb = 60, bio = 100, rad = 60)
+
+
+	name = "Space-Knight helm"
+	desc = "A well polished helmet belonging to a Space-Knight. Favored by space-jousters for its ability to stay on tight after being launched from a mass driver."
+	armor = list(melee = 60, bullet = 40, laser = 40,energy = 30, bomb = 50, bio = 100, rad = 60)
+
+
+	name = "Space-Knight armour"
+	desc = "A well polished set of armour belonging to a Space-Knight. Maidens Rescued in Space: 100, Maidens who have slept with me in Space: 0."
+	armor = list(melee = 60, bullet = 40, laser = 40,energy = 30, bomb = 50, bio = 100, rad = 60)
+
+
+	name = "Black Knight's helm"
+	desc = "An ominous black helmet with a gold trim. The small viewports create an intimidating look, while also making it nearly impossible to see anything."
+	armor = list(melee = 70, bullet = 65, laser = 50,energy = 25, bomb = 60, bio = 100, rad = 60)
+
+
+	name = "Black Knight's armour"
+	desc = "An ominous black suit of armour with a gold trim. Surprisingly good at preventing accidental loss of limbs."
+	armor = list(melee = 70, bullet = 65, laser = 50,energy = 25, bomb = 60, bio = 100, rad = 60)
+
+
+	name = "Solar helm"
+	desc = "A simple helmet. 'Made in Astora' is inscribed on the back."
+	armor = list(melee = 60, bullet = 65, laser = 90,energy = 30, bomb = 60, bio = 100, rad = 100)
+
+
+	name = "Solar armour"
+	desc = "A solar powered hardsuit with a fancy insignia on the chest. Perfect for stargazers and adventurers alike."
+	armor = list(melee = 60, bullet = 65, laser = 90,energy = 30, bomb = 60, bio = 100, rad = 100)
+
+
+	name = "T-51b Power Armor"
+	desc = "Relic of a bygone era, the T-51b is powered by a TX-28 MicroFusion Pack, which holds enough fuel to power its internal hydraulics for a century!"
+	armor = list(melee = 35, bullet = 35, laser = 40, energy = 40, bomb = 80, bio = 100, rad = 100)
+
+
+	name = "T-51b Power Armor Helmet"
+	desc = "Relic of a bygone era, the T-51b is powered by a TX-28 MicroFusion Pack, which holds enough fuel to power its internal hydraulics for a century!"
+	armor = list(melee = 35, bullet = 35, laser = 40, energy = 40, bomb = 80, bio = 100, rad = 100)
+
+
+	name = "jury-rigged space-proof fire helmet"
+	desc = "A firefighter helmet and gas mask combined and jury-rigged into being 'space-proof' somehow."
+	armor = list(melee = 30, bullet = 5, laser = 20,energy = 10, bomb = 20, bio = 10, rad = 20)
+
+
+	name = "jury-rigged space-proof firesuit"
+	desc = "A firesuit jury-rigged into being 'space-proof' somehow."
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 0)
+
+
+	name = "survivor's hardsuit"
+	desc = "...and so he left the asteroid, with everything but his humanity."
+	armor = list(melee = 40, bullet = 0, laser = 0,energy = 0, bomb = 65, bio = 100, rad = 50)
+
+
+	name = "survivor's hardsuit helmet"
+	desc = "...and so he left the asteroid, with everything but his humanity."
+	armor = list(melee = 40, bullet = 0, laser = 0,energy = 0, bomb = 65, bio = 100, rad = 50)
+
+
+	name = "space helmet"
+	desc = "A special helmet designed for work in a hazardous, low-pressure environment. Only for the most fashionable of military figureheads."
+	armor = list(melee = 65, bullet = 50, laser = 50,energy = 25, bomb = 50, bio = 100, rad = 50)
+
+
+	name = "Captain's armor"
+	desc = "A bulky, heavy-duty piece of exclusive Nanotrasen armor. YOU are in charge!"
+	armor = list(melee = 65, bullet = 50, laser = 50, energy = 25, bomb = 50, bio = 100, rad = 50)
+
+
+	name = "Cent. Com. armor"
+	desc = "This bulky armor is the property of Nanotrasen's supreme leader. Witness and behold!"
+	armor = list(melee = 65, bullet = 55, laser = 50, energy = 25, bomb = 50, bio = 100, rad = 60)
+
+
+	name = "\improper SWAT shoes"
+	desc = "When you want to turn up the heat."
+	armor = list(melee = 80, bullet = 60, laser = 50,energy = 25, bomb = 50, bio = 10, rad = 0)
+
+
+	name = "combat boots"
+	desc = "When you REALLY want to turn up the heat."
+	armor = list(melee = 80, bullet = 60, laser = 50,energy = 25, bomb = 50, bio = 10, rad = 0)
+
+
+	name = "Head of Security Hat"
+	desc = "The hat of the Head of Security. For showing the officers who's in charge."
+	armor = list(melee = 80, bullet = 60, laser = 50,energy = 10, bomb = 25, bio = 10, rad = 0)
+
+
+	name = "riot helmet"
+	desc = "It's a helmet specifically designed to protect against close range attacks."
+	armor = list(melee = 82, bullet = 15, laser = 5,energy = 5, bomb = 5, bio = 2, rad = 0)
+
+
+	name = "\improper SWAT helmet"
+	desc = "They're often used by highly trained Swat Members."
+	armor = list(melee = 80, bullet = 60, laser = 50,energy = 25, bomb = 50, bio = 10, rad = 0)
+
+
+	name = "leather cap"
+	desc = "Crafted by hand, should stop a good knock on the head, but don't expect much from a glorified old rugby helmet."
+	armor = list(melee = 30, bullet = 10, laser = 20, energy = 10, bomb = 20, bio = 0, rad = 0)
+
+
+	name = "horned deer pelt head cover"
+	desc = "Made to help you blend in and stalk deer. Perfect for headbutting people with."
+	armor = list(melee = 35, bullet = 10, laser = 20, energy = 10, bomb = 25, bio = 0, rad = 0)
+
+
+	name = "xeno-hide helmet"
+	desc = "A brutal attempt at using a brutal combatant as armor."
+	armor = list(melee = 40, bullet = 25, laser = 30, energy = 25, bomb = 15, bio = 20, rad = 20)
+
+
+	name = "helmet"
+	armor = list(melee = 50, bullet = 15, laser = 50, energy = 10, bomb = 25, bio = 0, rad = 0)
+
+
+	name = "visor helmet"
+	desc = "For when you need to protect your face from the backblast of your pepperspray"
+	armor = list(melee = 50, bullet = 25, laser = 45, energy = 15, bomb = 30, bio = 0, rad = 0)
+
+
+	name = "Judge Helmet"
+	desc = "Judge, Jury, and Executioner."
+	armor = list(melee = 80, bullet = 60, laser = 50,energy = 25, bomb = 50, bio = 10, rad = 0)
+
+
+	name = "\improper Thunderdome helmet"
+	desc = "<i>'Let the battle commence!'</i>"
+	armor = list(melee = 80, bullet = 60, laser = 50,energy = 10, bomb = 25, bio = 10, rad = 0)
+
+
+	name = "roman helmet"
+	desc = "An ancient helmet made of bronze and leather."
+	armor = list(melee = 20, bullet = 0, laser = 20, energy = 10, bomb = 10, bio = 0, rad = 0)
+
+
+	name = "roman legionaire helmet"
+	desc = "An ancient helmet made of bronze and leather. Has a red crest on top of it."
+	armor = list(melee = 25, bullet = 0, laser = 25, energy = 10, bomb = 10, bio = 0, rad = 0)
+
+
+	name = "Head of Personnel's Cap"
+	desc = "Papers, Please."
+	armor = list(melee = 25, bullet = 0, laser = 15, energy = 10, bomb = 5, bio = 0, rad = 0)
+
+
+	name = "Aviator Helmet"
+	desc = "Help the Bombardier!"
+	armor = list(melee = 25, bullet = 0, laser = 20, energy = 10, bomb = 10, bio = 0, rad = 0)
+
+
+	name = "pirate lord's helmet"
+	desc = "The headwear of an all powerful and bloodthirsty pirate lord. Simply looking at it sends chills down your spine."
+	armor = list(melee = 75, bullet = 75, laser = 75,energy = 75, bomb = 75, bio = 100, rad = 90)
+
+
+	name = "Biker's Helmet"
+	desc = "This helmet should protect you from russians and masked vigilantes."
+	armor = list(melee = 25, bullet = 15, laser = 20, energy = 10, bomb = 10, bio = 0, rad = 0)
+
+
+	name = "Richard"
+	desc = "Do you like hurting people?"
+	armor = list(melee = 0, bullet = 0, laser = 0, energy = 0, bomb = 0, bio = 0, rad = 0)
+
+
+	name = "Digouter Helmet"
+	desc = "A sturdy helmet, fortified to protect from falling rocks or buster shots."
+	armor = list(melee = 50, bullet = 40, laser = 40,energy = 40, bomb = 5, bio = 0, rad = 0)
+
+
+	name = "Doomguy's helmet"
+	desc = ""
+	armor = list(melee = 50, bullet = 40, laser = 40,energy = 40, bomb = 5, bio = 0, rad = 0)
+
+
+	name = "medieval helmet"
+	desc = "A classic metal helmet."
+	armor = list(melee = 20, bullet = 5, laser = 2,energy = 2, bomb = 2, bio = 2, rad = 0)
+
+
+	name = "chainmail coif"
+	desc = "chains fashioned together to be a hood to wear over your head"
+	armor = list(melee = 10, bullet = 15, laser = 2,energy = 2, bomb = 2, bio = 2, rad = 0)
+
+
+	name = "welding helmet"
+	desc = "A head-mounted face cover designed to protect the wearer completely from space-arc eye."
+	armor = list(melee = 10, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 0)
+
+
+	name = "armored top hat"
+	desc = "It's an amish looking top hat. This one looks sturdier."
+	armor = list(melee = 35, bullet = 15, laser = 30, energy = 5, bomb = 10, bio = 0, rad = 0)
+
+
+	name = "festive paper hat"
+	desc = "A crappy paper hat that you are REQUIRED to wear."
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 0)
+
+
+	name = "cappello romano"
+	desc = "A round wide-brimmed hat worn by more traditional Roman Catholic clergy."
+	armor = list(melee = 0, bullet = 0, laser = 15, energy = 15, bomb = 0, bio = 0, rad = 0)
+
+
+	name = "hard hat"
+	desc = "A piece of headgear used in dangerous working conditions to protect the head. Comes with a built-in flashlight."
+	armor = list(melee = 30, bullet = 5, laser = 20,energy = 10, bomb = 20, bio = 10, rad = 20)
+
+
+	name = "Anomaly suit"
+	desc = "A sealed bio suit capable of insulating against exotic alien energies"
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 100, rad = 100)
+
+
+	name = "Anomaly hood"
+	desc = "A sealed bio hood capable of insulating against exotic alien energies."
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 100, rad = 100)
+
+
+	name = "Excavation suit"
+	desc = "A pressure resistant excavation suit partially capable of insulating against exotic alien energies."
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 100, rad = 100)
+
+
+	name = "Excavation hood"
+	desc = "A pressure resistant excavation hood partially capable of insulating against exotic alien energies."
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 100, rad = 100)
+
+
+	name = "adamantine skin"
+	desc = "a golem's skin"
+	armor = list(melee = 10, bullet = 0, laser = 0,energy = 0, bomb = 0, bio = 0, rad = 0)
+
+
+	name = "adamantine shell"
+	desc = "a golem's thick outer shell"
+	armor = list(melee = 80, bullet = 20, laser = 20, energy = 10, bomb = 0, bio = 0, rad = 0)
+
+
+	name = "golem's head"
+	desc = "a golem's head"
+	armor = list(melee = 80, bullet = 20, laser = 20, energy = 10, bomb = 0, bio = 0, rad = 0)
+
+
+	name = "Bomberman's suit"
+	desc = "Doesn't actually make you immune to bombs!"
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 100, bio = 0, rad = 0)
+
+
+	name = "Bomberman head"
+	desc = "Terrorism has never looked so adorable."
+	armor = list(melee = 0, bullet = 0, laser = 0,energy = 0, bomb = 100, bio = 0, rad = 0)
+
+
