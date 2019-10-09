@@ -494,6 +494,8 @@
 					H.legcuffed = src
 					src.forceMove(H)
 					H.update_inv_legcuffed()
+					H.apply_damage(rand(40,60), BRUTE, pick(LIMB_LEFT_LEG, LIMB_RIGHT_LEG), used_weapon = src)
+					H.audible_scream()
 
 					feedback_add_details("handcuffs","B") //Yes, I know they're legcuffs. Don't change this, no need for an extra variable. The "B" is used to tell them apart.
 
