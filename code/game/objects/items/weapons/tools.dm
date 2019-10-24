@@ -363,7 +363,7 @@
 		log_game("[key_name(user)] triggered a fueltank explosion.")
 		to_chat(user, "<span class='warning'>That was stupid of you.</span>")
 		var/obj/structure/reagent_dispensers/fueltank/tank = A
-		tank.explode()
+		tank.ex_act() // TODO
 		return
 	if (src.welding)
 		if(isliving(A))

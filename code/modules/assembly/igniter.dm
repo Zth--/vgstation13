@@ -27,7 +27,7 @@
 			if (istype(src.loc.loc, /obj/structure/reagent_dispensers/fueltank/))
 				var/obj/structure/reagent_dispensers/fueltank/tank = src.loc.loc
 				if (tank && tank.modded)
-					tank.explode()
+					tank.ex_act() //TODO
 
 		return 1
 

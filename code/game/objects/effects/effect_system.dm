@@ -1038,7 +1038,7 @@ steam.start() -- spawns the effect
 
 /datum/effect/effect/system/reagents_explosion/set_up (amt, loc, flash = 0, flash_fact = 0)
 	amount = amt
-	if(istype(loc, /turf/))
+	if(isturf(loc))
 		location = loc
 	else
 		location = get_turf(loc)
@@ -1069,10 +1069,11 @@ steam.start() -- spawns the effect
 		var/range = 0
 		// Clamp all values to MAX_EXPLOSION_RANGE
 		range = min (MAX_EXPLOSION_RANGE, light + round(amount/3))
-		devastation = round(min(3, range * 0.25)) // clamps to 3 devastation for grenades
-		heavy = round(min(5, range * 0.5)) // clamps to 5 heavy range for grenades
-		light = min(7, range) // clamps to 7 light range for grenades
+		devastation = round(min(MAX_EXPLOSION_RANGE, range * 0.25)) // clamps to 3 devastation for grenades
+		heavy = round(range * 0.5) // clamps to 5 heavy range for grenades
+		light = range // clamps to 7 light range for grenades
 		flash = range * 1.5
+		to_chat(world, "range [range], devastation [devastation], heavy [heavy], light [light]")
 		/*
 		if (round(amount/12) > 0)
 			devastation = min (MAX_EXPLOSION_RANGE, devastation + round(amount/12))

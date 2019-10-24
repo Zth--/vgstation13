@@ -163,8 +163,9 @@
 	apply_beam_damage(B)
 
 /obj/structure/reagent_dispensers/fueltank/apply_beam_damage(var/obj/effect/beam/B)
-	if(isturf(get_turf(src)) && B.get_damage() >= 15)
-		explode()
+	// if(isturf(get_turf(src)) && B.get_damage() >= 15)
+		// explode()
+	ex_act()
 
 /obj/structure/reagent_dispensers/fueltank/bullet_act(var/obj/item/projectile/Proj)
 	if(istype(Proj ,/obj/item/projectile/beam)||istype(Proj,/obj/item/projectile/bullet)||istype(Proj,/obj/item/projectile/ricochet))
@@ -175,27 +176,31 @@
 				msg_admin_attack("[key_name(Proj.firer)] shot [src]/([formatJumpTo(src)]) with a [Proj.type] (<A HREF='?_src_=holder;adminplayerobservecoodjump=1;X=[Proj.firer.x];Y=[Proj.firer.y];Z=[Proj.firer.z]'>JMP</a>)") //BS12 EDIT ALG
 			else
 				msg_admin_attack("[src] was shot by a [Proj.type] (<A HREF='?_src_=holder;adminplayerobservecoodjump=1;X=[src.x];Y=[src.y];Z=[src.z]'>JMP</a>)") //BS12 EDIT ALG
-			explode()
+			// explode()
+			ex_act()
 
 /obj/structure/reagent_dispensers/fueltank/blob_act()
-	explode()
+	// explode()
+	ex_act()
 
 /obj/structure/reagent_dispensers/fueltank/ex_act()
-	explode()
+	// Let's just assume the explosion transfers a lot of heat
+	reagents.heating(ARBITRARILY_LARGE_NUMBER, ARBITRARILY_LARGE_NUMBER)
 
 /obj/structure/reagent_dispensers/fueltank/singularity_act()
 	qdel(src)
-	return  2
+	return 2
 
 /obj/structure/reagent_dispensers/fueltank/fire_act(datum/gas_mixture/air, exposed_temperature, exposed_volume)
-	if(exposed_temperature >= AUTOIGNITION_WELDERFUEL)
-		explode()
+	// if(exposed_temperature >= AUTOIGNITION_WELDERFUEL)
+		// explode()
+	ex_act()
 
 /obj/structure/reagent_dispensers/fueltank/bumped_by_firebird(var/obj/structure/bed/chair/vehicle/firebird/F)
 	visible_message("<span class='danger'>\the [F] crashes into \the [src]!</span>")
-	explode()
+	ex_act() //TODO explode()
 
-/obj/structure/reagent_dispensers/fueltank/proc/explode()
+/*/obj/structure/reagent_dispensers/fueltank/proc/explode()
 	if (reagents.total_volume > 500)
 		explosion(src.loc,1,2,4)
 	else if (reagents.total_volume > 100)
@@ -203,7 +208,7 @@
 	else
 		explosion(src.loc,-1,1,2)
 	if(src)
-		qdel(src)
+		qdel(src)*/
 
 /obj/structure/reagent_dispensers/fueltank/New()
 	. = ..()

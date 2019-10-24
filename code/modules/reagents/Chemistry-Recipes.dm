@@ -85,6 +85,23 @@
 	holder.clear_reagents()
 	holder.add_reagent(POTASSIUM_HYDROXIDE, created_volume)
 
+/datum/chemical_reaction/explosion_fuel
+	name = "Fuel Explosion"
+	id = "explosion_fuel"
+	result = null
+	required_reagents = list(FUEL = 100)
+	result_amount = 1
+	alert_admins = ALERT_AMOUNT_ONLY
+	required_temp = 300
+	secondary = 1
+
+/datum/chemical_reaction/explosion_fuel/on_reaction(datum/reagents/holder, var/created_volume)
+	to_chat(world, "[created_volume] is amount. is that ok? use this to calculate the explosion")
+	var/datum/effect/effect/system/reagents_explosion/explosion = new()
+	explosion.set_up(1000, holder.my_atom, 0, 0)
+	//explosion.holder_damage(holder.my_atom)
+	explosion.start()
+
 /datum/chemical_reaction/soap //Potassium Hydroxide is used in making liquid soap not bar soap but that will not stop me
 	name = "Soap"
 	id = "soap"
