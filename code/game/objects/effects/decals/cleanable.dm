@@ -168,9 +168,6 @@ var/list/infected_cleanables = list()
 	virus2 = list()
 	blood_DNA = list()
 
-/obj/effect/decal/cleanable/proc/messcheck(var/obj/effect/decal/cleanable/M)
-	return 1
-
 
 /obj/effect/decal/cleanable/proc/add_blood_to(var/mob/living/carbon/human/perp, var/amount)
 	if (!istype(perp))

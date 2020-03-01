@@ -238,12 +238,8 @@
 	var/roundlength = world.time/10 //Get a value in seconds
 	score["time"] = round(roundlength) //One point for every five seconds. One minute is 12 points, one hour 720 points
 
-	//Check how many uncleaned mess are on the station. We can't run through cleanable for reasons, so yeah, long
-	for(var/obj/effect/decal/cleanable/M in decals)
-		if(M.z != STATION_Z) //Won't work on multi-Z stations, but will do for now
-			continue
-		if(M.messcheck())
-			score["mess"]++
+	//Check how many uncleaned mess are on the station.
+	score["mess"] += decals_counter
 
 	for(var/obj/item/trash/T in trash_items)
 		if(T.z != STATION_Z) //Won't work on multi-Z stations, but will do for now

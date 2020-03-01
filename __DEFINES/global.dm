@@ -279,7 +279,7 @@ var/list/score=list(
 )
 
 var/list/trash_items = list()
-var/list/decals = list()
+var/decals_counter = 0
 
 // Mostly used for ban systems.
 // Initialized on world/New()

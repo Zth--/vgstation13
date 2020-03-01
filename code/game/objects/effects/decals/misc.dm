@@ -1,15 +1,16 @@
 //This was put here because I don't want to overcomplicate my PR
 /obj/effect/decal
-	//var/global/list/decals = list()
 	layer = DECAL_LAYER
 	plane = ABOVE_TURF_PLANE
 
 /obj/effect/decal/New()
 	..()
-	decals += src
+	if(z == STATION_Z) //Won't work on multi-Z stations, but will do for now
+		decals_counter++
 
 /obj/effect/decal/Destroy()
-	decals -= src
+	if(z == STATION_Z)
+		decals_counter--
 	..()
 
 /obj/effect/decal/point
