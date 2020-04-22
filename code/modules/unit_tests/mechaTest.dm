@@ -9,8 +9,8 @@
 	mech.moved_inside(H)
 	for(var/entry in mech.log)
 		world.log << entry
-	is_wearing_hardsuit = is_wearing_item(/obj/item/clothing/suit/space/rig/security(H), slot_wear_suit)
+	var/is_wearing_hardsuit = H.is_wearing_item(/obj/item/clothing/suit/space/rig/security(H), slot_wear_suit)
 	world.log << "[is_wearing_hardsuit]"
 	ASSERT(is_wearing_hardsuit)
-	var/fat = M_FAT in H.mutations
-	world.log << "[fat]"
+	// var/fat = M_FAT in H.mutations
+	// world.log << "[fat]"
