@@ -14,7 +14,7 @@
 	ASSERT(is_wearing_hardsuit)
 	H.mutations.Add(M_FAT)
 	H.update_mutations()
-	var/is_wearing_hardsuit = H.is_wearing_item(/obj/item/clothing/suit/space/rig/security, slot_wear_suit)
+	is_wearing_hardsuit = H.is_wearing_item(/obj/item/clothing/suit/space/rig/security, slot_wear_suit)
 	ASSERT(is_wearing_hardsuit)
 	// var/fat = M_FAT in H.mutations
 	// world.log << "[fat]"
