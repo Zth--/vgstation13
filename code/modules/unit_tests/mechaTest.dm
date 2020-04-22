@@ -9,3 +9,5 @@
 	mech.moved_inside(H)
 	for(var/entry in mech.log)
 		world.log << entry
+	world.log << "[H.slot_wear_suit]"
+	ASSERT(!isnull(H.slot_wear_suit))
