@@ -3,6 +3,7 @@
 #include "circuitboards.dm"
 #include "dna_and_disabilities.dm"
 #include "hexadecimal.dm"
+#include "mechaTest.dm"
 #include "reagent_recipe_collisions.dm"
 #include "slipping.dm"
 #include "names.dm"
